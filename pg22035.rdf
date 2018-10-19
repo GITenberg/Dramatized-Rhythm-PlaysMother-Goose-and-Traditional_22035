@@ -1,77 +1,214 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF xml:base="http://www.gutenberg.org/"
+  xmlns:pgterms="http://www.gutenberg.org/2009/pgterms/"
   xmlns:cc="http://web.resource.org/cc/"
   xmlns:dcterms="http://purl.org/dc/terms/"
   xmlns:dcam="http://purl.org/dc/dcam/"
-  xmlns:pgterms="http://www.gutenberg.org/2009/pgterms/"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
 >
   <pgterms:ebook rdf:about="ebooks/22035">
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/22035/22035-h/files/jackjill.midi">
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">773</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-06-25T16:21:22</dcterms:modified>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/22035/22035-h/files/loobyloo.pdf">
         <dcterms:isFormatOf rdf:resource="ebooks/22035"/>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N2386352b7fd14f22bb32742c08689378">
+          <rdf:Description rdf:nodeID="N41aeb3ee08564b5684a894747ea7ef0c">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/midi</rdf:value>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/pdf</rdf:value>
           </rdf:Description>
         </dcterms:format>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/22035/22035-h/files/loobyloo.midi">
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="Nb33ed52c051949298e71f4f98ada7783">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/midi</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1063</dcterms:extent>
-        <dcterms:isFormatOf rdf:resource="ebooks/22035"/>
         <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-06-25T16:34:18</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">56209</dcterms:extent>
       </pgterms:file>
     </dcterms:hasFormat>
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/22035/22035-h/files/yankeedoodle.pdf">
-        <dcterms:isFormatOf rdf:resource="ebooks/22035"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">53830</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-06-24T23:24:22</dcterms:modified>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/22035/22035.zip">
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Naf9ace1d6e894750bc46fd45bc2ecde1">
+          <rdf:Description rdf:nodeID="N939e9bf654534a12b44a0e6a674abebe">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=us-ascii</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">26556</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-07-10T06:18:44</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N4ce0aa5eed944db7abd79a1348986cb4">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:isFormatOf rdf:resource="ebooks/22035"/>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/22035/22035-h/files/dickory.pdf">
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">42330</dcterms:extent>
+        <dcterms:isFormatOf rdf:resource="ebooks/22035"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-06-22T22:42:24</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Nc89d59b5615c4b8789edac24864f3256">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/pdf</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/22035/22035-h/files/boyblue.pdf">
+        <dcterms:isFormatOf rdf:resource="ebooks/22035"/>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N9be87d31712842d786537e06c7ddd00e">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/pdf</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">46062</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-06-24T19:01:14</dcterms:modified>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/22035/22035-h/files/patacake.pdf">
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N42d50059de2240b1a66bb0a533b2a688">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/pdf</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44988</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-06-24T22:53:14</dcterms:modified>
+        <dcterms:isFormatOf rdf:resource="ebooks/22035"/>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/22035/22035-h/files/popweasel.pdf">
+        <dcterms:isFormatOf rdf:resource="ebooks/22035"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-06-25T18:09:58</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">55868</dcterms:extent>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N7a0e0280405d4d4c83c5ccc97db949f1">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/pdf</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/22035/22035-h/files/jackhorner.midi">
+        <dcterms:isFormatOf rdf:resource="ebooks/22035"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-06-22T23:18:14</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">877</dcterms:extent>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N81d8ba2ada4247bc97b78d8f4e1d2b5b">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/midi</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="N289107a4b54746a4bf4df16c5642a3a6">
+        <rdf:value>Schools -- Exercises and recreations</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
+      </rdf:Description>
+    </dcterms:subject>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/22035/22035-h/files/dickory.midi">
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">640</dcterms:extent>
+        <dcterms:isFormatOf rdf:resource="ebooks/22035"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-06-22T22:42:22</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N208fcc4ba90d4166bf31a00bc4f6665b">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/midi</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/22035.rdf">
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Nb289769cba104d0ebe94538d74b5fae2">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/rdf+xml</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">57666</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-13T05:16:56.307471</dcterms:modified>
+        <dcterms:isFormatOf rdf:resource="ebooks/22035"/>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/22035/22035-h/files/heydiddle.pdf">
+        <dcterms:isFormatOf rdf:resource="ebooks/22035"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44582</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-06-24T19:08:44</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Nef48bdc8651e4691aadf943dbe885acd">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/pdf</rdf:value>
           </rdf:Description>
         </dcterms:format>
       </pgterms:file>
     </dcterms:hasFormat>
-    <dcterms:type>
-      <rdf:Description rdf:nodeID="Nb682ed31ce20411b9aa95224b4d8deaa">
-        <rdf:value>Text</rdf:value>
-        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/DCMIType"/>
-      </rdf:Description>
-    </dcterms:type>
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/22035/22035-h/files/williewinkie.midi">
-        <dcterms:isFormatOf rdf:resource="ebooks/22035"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">895</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-06-24T23:08:48</dcterms:modified>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/22035/22035-h/files/heydiddlesharp.pdf">
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44774</dcterms:extent>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Nb5f9f4754c1d4a02bd8e1663b53e0c62">
+          <rdf:Description rdf:nodeID="N55ecd1625db440eca1560f17a5689fb3">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/midi</rdf:value>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/pdf</rdf:value>
           </rdf:Description>
         </dcterms:format>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-06-24T19:31:28</dcterms:modified>
+        <dcterms:isFormatOf rdf:resource="ebooks/22035"/>
       </pgterms:file>
     </dcterms:hasFormat>
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/22035/22035-h/files/sixpence.pdf">
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">81246</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-06-25T17:12:08</dcterms:modified>
-        <dcterms:isFormatOf rdf:resource="ebooks/22035"/>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/22035/22035-h/files/loobyloo.midi">
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-06-25T16:34:18</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N2af7d8a2ff914b629e6463f8f5e58103">
+          <rdf:Description rdf:nodeID="Na348c39b14c2407a8e122ff07138b788">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/midi</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1063</dcterms:extent>
+        <dcterms:isFormatOf rdf:resource="ebooks/22035"/>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/22035/22035-h/files/patacake.midi">
+        <dcterms:isFormatOf rdf:resource="ebooks/22035"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">820</dcterms:extent>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N1db6415ed0154a9a8ec5a384d8e9e938">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/midi</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-06-24T22:53:12</dcterms:modified>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/22035.kindle.images">
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-11T02:28:03.583852</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1153967</dcterms:extent>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N7bf201c189d4460bbbe02e07cd9de2ca">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:isFormatOf rdf:resource="ebooks/22035"/>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/22035/22035-h/files/babybunting.pdf">
+        <dcterms:isFormatOf rdf:resource="ebooks/22035"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-06-24T18:40:46</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">37429</dcterms:extent>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Nbad99786eec04e31a7285dd1fa434a0e">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/pdf</rdf:value>
           </rdf:Description>
@@ -80,196 +217,185 @@
     </dcterms:hasFormat>
     <dcterms:hasFormat>
       <pgterms:file rdf:about="http://www.gutenberg.org/files/22035/22035-h/22035-h.htm">
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-07-10T06:16:58</dcterms:modified>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N187beb9651764bcaafb3be2d9ff1c7c6">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html; charset=us-ascii</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:isFormatOf rdf:resource="ebooks/22035"/>
         <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">175993</dcterms:extent>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/22035/22035-h/files/diddledumpling.midi">
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">718</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-06-24T20:53:02</dcterms:modified>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N655304ac706548c5b2630bcd47fcf737">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/midi</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-07-10T06:16:58</dcterms:modified>
         <dcterms:isFormatOf rdf:resource="ebooks/22035"/>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/22035/22035-h/files/heydiddlesharp.pdf">
-        <dcterms:isFormatOf rdf:resource="ebooks/22035"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44774</dcterms:extent>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Na8aebd293efd47c9b224f79b98bd33a5">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/pdf</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-06-24T19:31:28</dcterms:modified>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/22035/22035-h.zip">
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="Nba05d3505183485da0c399d54519644b">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N9ef8afd89e334e5482b7c5184747f44d">
+          <rdf:Description rdf:nodeID="N0d753f57e5bf4880bb8eced2cdcc6e06">
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html; charset=us-ascii</rdf:value>
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
           </rdf:Description>
         </dcterms:format>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1248436</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-07-10T06:18:44</dcterms:modified>
-        <dcterms:isFormatOf rdf:resource="ebooks/22035"/>
       </pgterms:file>
     </dcterms:hasFormat>
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/22035/22035-h/files/popweasel.pdf">
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">55868</dcterms:extent>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/22035/22035-h/files/boyblue.midi">
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">815</dcterms:extent>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N212fcaa3256a4157945985d4615cb03d">
+          <rdf:Description rdf:nodeID="Nd16712d2b6b4447490f5f5693153c0af">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/midi</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:isFormatOf rdf:resource="ebooks/22035"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-06-24T19:01:12</dcterms:modified>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/22035/22035-h/files/seesaw.pdf">
+        <dcterms:isFormatOf rdf:resource="ebooks/22035"/>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Nf38d1f94760048459d5ee8018a381261">
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/pdf</rdf:value>
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
           </rdf:Description>
         </dcterms:format>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-06-25T18:09:58</dcterms:modified>
-        <dcterms:isFormatOf rdf:resource="ebooks/22035"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">40338</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-06-25T16:46:10</dcterms:modified>
       </pgterms:file>
     </dcterms:hasFormat>
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/22035/22035-h/files/heydiddleslow.midi">
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/22035/22035-h/files/jackbenimble.midi">
         <dcterms:isFormatOf rdf:resource="ebooks/22035"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">771</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-06-24T19:10:34</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">404</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-06-22T23:00:40</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Nd4b4b016a9e8434d85303d0d3fd1e0d3">
+          <rdf:Description rdf:nodeID="Ne6ff250fd23348bbaf19522124616bac">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/midi</rdf:value>
           </rdf:Description>
         </dcterms:format>
       </pgterms:file>
     </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/22035/22035-h/files/heydiddleslow.pdf">
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-06-24T19:10:34</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44891</dcterms:extent>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N32a80d2311d84ce4a46f856e7a7900b8">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/pdf</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:isFormatOf rdf:resource="ebooks/22035"/>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:publisher>Project Gutenberg</dcterms:publisher>
     <dcterms:hasFormat>
       <pgterms:file rdf:about="http://www.gutenberg.org/files/22035/22035-h/files/cockhorse.midi">
+        <dcterms:isFormatOf rdf:resource="ebooks/22035"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">830</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-06-24T19:44:38</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N72f318ea19f34019b72bd0c9b035fcb5">
+          <rdf:Description rdf:nodeID="N4a232675ed4c464386b49d43a59fb80b">
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/midi</rdf:value>
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
           </rdf:Description>
         </dcterms:format>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-06-24T19:44:38</dcterms:modified>
-        <dcterms:isFormatOf rdf:resource="ebooks/22035"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">830</dcterms:extent>
       </pgterms:file>
     </dcterms:hasFormat>
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/22035/22035-h/files/blacksheep.pdf">
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">43707</dcterms:extent>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/22035/22035-h/files/littledog.midi">
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">725</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-06-24T21:11:12</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Nd48a0c5c12c2434abf1bfac8c3ba44fe">
+          <rdf:Description rdf:nodeID="N5e89b8536b8149e3b64eb7cd924025f9">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/pdf</rdf:value>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/midi</rdf:value>
           </rdf:Description>
         </dcterms:format>
         <dcterms:isFormatOf rdf:resource="ebooks/22035"/>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-06-25T17:30:30</dcterms:modified>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/22035/22035-h/files/sixpence2.pdf">
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N99951c3136c34199a30dd0481e51fafb">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/pdf</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:isFormatOf rdf:resource="ebooks/22035"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">54108</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-06-25T17:14:54</dcterms:modified>
       </pgterms:file>
     </dcterms:hasFormat>
     <dcterms:hasFormat>
       <pgterms:file rdf:about="http://www.gutenberg.org/files/22035/22035-h/files/flyaway.midi">
-        <dcterms:isFormatOf rdf:resource="ebooks/22035"/>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-06-24T21:00:26</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Nf85d2b7eda2a47619cef9c41cd2ad4d8">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          <rdf:Description rdf:nodeID="N9b61a3900cae45cbbf08c2e9fb95374b">
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/midi</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
           </rdf:Description>
         </dcterms:format>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-06-24T21:00:26</dcterms:modified>
+        <dcterms:isFormatOf rdf:resource="ebooks/22035"/>
         <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">785</dcterms:extent>
       </pgterms:file>
     </dcterms:hasFormat>
-    <dcterms:subject>
-      <rdf:Description rdf:nodeID="Ne288f49b730d44148588140ba09473b3">
-        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
-        <rdf:value>Schools -- Exercises and recreations</rdf:value>
-      </rdf:Description>
-    </dcterms:subject>
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/22035/22035-h/files/jackhorner.pdf">
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/22035/22035-h/files/yankeedoodle.pdf">
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-06-24T23:24:22</dcterms:modified>
+        <dcterms:isFormatOf rdf:resource="ebooks/22035"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">53830</dcterms:extent>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Na3cd1a5cf4bb4f408f9240d26edc8998">
+          <rdf:Description rdf:nodeID="N87f65b899b3d466c98a6eb0c3a0b3559">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/pdf</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/22035/22035-h/files/missmuffet_b.pdf">
+        <dcterms:isFormatOf rdf:resource="ebooks/22035"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">48956</dcterms:extent>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Nf11b2e06b6214d7babb73896bf13bfc5">
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/pdf</rdf:value>
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
           </rdf:Description>
         </dcterms:format>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-06-22T23:25:46</dcterms:modified>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/22035/22035-h/files/dapplegrey.midi">
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1069</dcterms:extent>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N68fc2d6c8158429e835c792cda0811f0">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/midi</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-06-25T17:52:44</dcterms:modified>
         <dcterms:isFormatOf rdf:resource="ebooks/22035"/>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-06-22T23:18:14</dcterms:modified>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">47834</dcterms:extent>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/22035/22035-h/files/heydiddlesharp.midi">
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-06-24T19:31:28</dcterms:modified>
+        <dcterms:isFormatOf rdf:resource="ebooks/22035"/>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Nd0da51e34d614275ad3415cf718c43ea">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/midi</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">771</dcterms:extent>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/22035/22035-h/files/rockabye.midi">
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-06-22T23:39:00</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N90098ca77324439da775c7b97007866f">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/midi</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:isFormatOf rdf:resource="ebooks/22035"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">778</dcterms:extent>
       </pgterms:file>
     </dcterms:hasFormat>
     <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2007-07-10</dcterms:issued>
+    <dcterms:license rdf:resource="license"/>
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/22035/22035-h/files/rockabye.pdf">
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">43937</dcterms:extent>
-        <dcterms:isFormatOf rdf:resource="ebooks/22035"/>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="Nca39f97100964edeac5aedf281e7a997">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/pdf</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-06-22T23:39:00</dcterms:modified>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:rights>Public domain in the USA.</dcterms:rights>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/22035/22035-h/files/jackhorner.midi">
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-06-22T23:18:14</dcterms:modified>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">877</dcterms:extent>
-        <dcterms:isFormatOf rdf:resource="ebooks/22035"/>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N63a61174120847aba5d60c3766c7497d">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/midi</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/22035/22035-h/files/theband.midi">
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">858</dcterms:extent>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/22035/22035-h/files/theband.pdf">
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44263</dcterms:extent>
         <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-06-22T23:48:48</dcterms:modified>
         <dcterms:isFormatOf rdf:resource="ebooks/22035"/>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N397048c2e14444e9b15bf5d9e96c52ee">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/midi</rdf:value>
+          <rdf:Description rdf:nodeID="Nf6a42a34d1d54578b1069973e3a41ebe">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/pdf</rdf:value>
           </rdf:Description>
         </dcterms:format>
       </pgterms:file>
@@ -277,401 +403,301 @@
     <dcterms:hasFormat>
       <pgterms:file rdf:about="http://www.gutenberg.org/files/22035/22035-h/files/littledog.pdf">
         <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">42353</dcterms:extent>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="Nba21bdff29124537bc9850b0744d4df6">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/pdf</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:isFormatOf rdf:resource="ebooks/22035"/>
         <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-06-24T21:11:14</dcterms:modified>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:license rdf:resource="license"/>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/22035/22035-h/files/yankeedoodle.midi">
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1097</dcterms:extent>
-        <dcterms:isFormatOf rdf:resource="ebooks/22035"/>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Ne81aad8596b940678f91dc3505c67bc1">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/midi</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-06-24T23:24:22</dcterms:modified>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/22035/22035-h/files/sixpence.midi">
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-06-25T17:12:08</dcterms:modified>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="Nc8dd63f64b9b4875ace91fdfc601bd02">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/midi</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1708</dcterms:extent>
-        <dcterms:isFormatOf rdf:resource="ebooks/22035"/>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/22035/22035-h/files/diddledumpling.pdf">
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-06-24T20:53:02</dcterms:modified>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">41058</dcterms:extent>
-        <dcterms:isFormatOf rdf:resource="ebooks/22035"/>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N2abdbae7e1fc447aaed9b62d349dd399">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/pdf</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/22035/22035-h/files/heydiddlesharp.midi">
-        <dcterms:isFormatOf rdf:resource="ebooks/22035"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">771</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-06-24T19:31:28</dcterms:modified>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="Nfcbe3605ba1c422fb62c0fa20da0129c">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/midi</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:subject>
-      <rdf:Description rdf:nodeID="N27cf05950a7845f49f76209d786f7299">
-        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCC"/>
-        <rdf:value>M</rdf:value>
-      </rdf:Description>
-    </dcterms:subject>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/22035/22035-h/files/seesaw.pdf">
-        <dcterms:isFormatOf rdf:resource="ebooks/22035"/>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-06-25T16:46:10</dcterms:modified>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">40338</dcterms:extent>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N370d274ccdf949fb853eb26de64891c3">
+          <rdf:Description rdf:nodeID="N5ecb41ce23304a71b7df5531e80dfc40">
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/pdf</rdf:value>
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
           </rdf:Description>
         </dcterms:format>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/22035/22035-h/files/dickory.midi">
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">640</dcterms:extent>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N3d2d800c2bb34d35b1ba7a09dbf3c8cc">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/midi</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:isFormatOf rdf:resource="ebooks/22035"/>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-06-22T22:42:22</dcterms:modified>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/22035/22035-h/files/sixpence2.midi">
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">976</dcterms:extent>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N02e7b7ffa0f34c8faa01fc644213101e">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/midi</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-06-25T17:14:54</dcterms:modified>
         <dcterms:isFormatOf rdf:resource="ebooks/22035"/>
       </pgterms:file>
     </dcterms:hasFormat>
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/22035/22035-h/files/humpty.midi">
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-06-22T23:00:22</dcterms:modified>
-        <dcterms:isFormatOf rdf:resource="ebooks/22035"/>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N72aa1dff6dbf419f8422c77cb393dbff">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/midi</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">798</dcterms:extent>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:publisher>Project Gutenberg</dcterms:publisher>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/22035/22035-h/files/dapplegrey.midi">
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1069</dcterms:extent>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N6307f647a4784f8fa3a91144b1ee0fee">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/midi</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:isFormatOf rdf:resource="ebooks/22035"/>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-06-25T17:52:44</dcterms:modified>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:language>
-      <rdf:Description rdf:nodeID="N72e873cdae8d4bcf86d240f385d5fbb4">
-        <rdf:value rdf:datatype="http://purl.org/dc/terms/RFC4646">en</rdf:value>
-      </rdf:Description>
-    </dcterms:language>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/22035/22035-h/files/dapplegrey.pdf">
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-06-25T17:52:44</dcterms:modified>
-        <dcterms:isFormatOf rdf:resource="ebooks/22035"/>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="Nabe8c185be6b43029c5b3f80ad0ed163">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/pdf</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">54154</dcterms:extent>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/22035/22035-h/files/williewinkie.pdf">
-        <dcterms:isFormatOf rdf:resource="ebooks/22035"/>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/22035/22035-h/files/williewinkie.midi">
         <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-06-24T23:08:48</dcterms:modified>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">45867</dcterms:extent>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Nfc03fd8059dd4c5187e3e5d01fff7a40">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/pdf</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/22035.qioo">
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-19T03:45:28.629950</dcterms:modified>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">88615</dcterms:extent>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N4062f49b73404fbabfc38359256627cc">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-qioo-ebook</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:isFormatOf rdf:resource="ebooks/22035"/>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/22035/22035-h/files/sixpence1.midi">
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N6f8200633d004da383635c851f493350">
+          <rdf:Description rdf:nodeID="N2629a9ee005d477b9c785bb38c258e0f">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/midi</rdf:value>
           </rdf:Description>
         </dcterms:format>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">895</dcterms:extent>
         <dcterms:isFormatOf rdf:resource="ebooks/22035"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">874</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-06-25T17:14:38</dcterms:modified>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/22035.epub.images">
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-16T14:57:41.413563</dcterms:modified>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">487874</dcterms:extent>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N6dd0e162aa0a4b2a8f1c6f322cc109e4">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:isFormatOf rdf:resource="ebooks/22035"/>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/22035/22035-h/files/rockabye.midi">
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">778</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-06-22T23:39:00</dcterms:modified>
-        <dcterms:isFormatOf rdf:resource="ebooks/22035"/>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N8e2f1554d28c480ca53008820cbd47ac">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/midi</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/22035/22035-h/files/babybunting.midi">
-        <dcterms:isFormatOf rdf:resource="ebooks/22035"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">618</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-06-24T18:40:44</dcterms:modified>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N3984ed3a10aa462ea25a70b60cfa3e82">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/midi</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/22035.kindle.noimages">
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-16T14:57:42.236739</dcterms:modified>
-        <dcterms:isFormatOf rdf:resource="ebooks/22035"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">111632</dcterms:extent>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="Nd5385bf27b3b4cdc87c994d38ee253da">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:subject>
-      <rdf:Description rdf:nodeID="N0c72690ebc604555a2a7e48a36a38bcb">
-        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
-        <rdf:value>Exercise music</rdf:value>
-      </rdf:Description>
-    </dcterms:subject>
-    <dcterms:title>Dramatized Rhythm Plays
-Mother Goose and Traditional</dcterms:title>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/22035/22035-h/files/babybunting.pdf">
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">37429</dcterms:extent>
-        <dcterms:isFormatOf rdf:resource="ebooks/22035"/>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N24fb42269fcb4003bc2ce70aa442019e">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/pdf</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-06-24T18:40:46</dcterms:modified>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/22035/22035-h/files/missmuffet_a.midi">
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-06-25T16:38:02</dcterms:modified>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N8728cf2254a240718b97b686deea92b6">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/midi</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">761</dcterms:extent>
-        <dcterms:isFormatOf rdf:resource="ebooks/22035"/>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/22035/22035-h/files/popweasel.midi">
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1072</dcterms:extent>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N84a1b8fe16b5413eb6289d0fb6d77106">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/midi</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:isFormatOf rdf:resource="ebooks/22035"/>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-06-25T18:09:56</dcterms:modified>
       </pgterms:file>
     </dcterms:hasFormat>
     <dcterms:hasFormat>
       <pgterms:file rdf:about="http://www.gutenberg.org/files/22035/22035-h/files/missmuffet_b.midi">
-        <dcterms:isFormatOf rdf:resource="ebooks/22035"/>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N1d78f351411b4efeb052648e61a3ea5e">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/midi</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
         <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-06-22T23:25:44</dcterms:modified>
+        <dcterms:isFormatOf rdf:resource="ebooks/22035"/>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N9e026de9f148480f9474c7ff89673440">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/midi</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
         <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">901</dcterms:extent>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/22035/22035-h/files/jackjill.pdf">
-        <dcterms:isFormatOf rdf:resource="ebooks/22035"/>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-06-25T16:21:22</dcterms:modified>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="Nce28f911c6ed41daa392c94f6a6e89d3">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/pdf</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">42627</dcterms:extent>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/22035/22035-h/files/missmuffet_a.pdf">
-        <dcterms:isFormatOf rdf:resource="ebooks/22035"/>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-06-25T16:38:02</dcterms:modified>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N97ee559bcfde45fab4ddb69ade0c9cc6">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/pdf</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44233</dcterms:extent>
       </pgterms:file>
     </dcterms:hasFormat>
     <dcterms:hasFormat>
       <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/22035.txt.utf-8">
         <dcterms:isFormatOf rdf:resource="ebooks/22035"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-11T02:28:00.412914</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100597</dcterms:extent>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Nee18a23f0ba04acebe9a64d90c76e1c5">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=utf-8</rdf:value>
+          <rdf:Description rdf:nodeID="N3cd94b33d3f04756b114963d33a9019a">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain</rdf:value>
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
           </rdf:Description>
         </dcterms:format>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100593</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-16T14:57:19.906115</dcterms:modified>
       </pgterms:file>
     </dcterms:hasFormat>
+    <dcterms:rights>Public domain in the USA.</dcterms:rights>
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/22035.kindle.images">
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/22035/22035-h/files/yankeedoodle.midi">
         <dcterms:isFormatOf rdf:resource="ebooks/22035"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">581444</dcterms:extent>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1097</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-06-24T23:24:22</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Ncc4ed9886a5b42c38ec7034eafe491e7">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-16T14:57:44.717263</dcterms:modified>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/22035/22035-h/files/boyblue.midi">
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">815</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-06-24T19:01:12</dcterms:modified>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="Nd10a4dc09f6440718badc72564cc0af1">
+          <rdf:Description rdf:nodeID="N3f892b88ae0b41a0803f1536b361e2b4">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/midi</rdf:value>
           </rdf:Description>
         </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="N107b8b80dc7848fc91ba51a73f5ed980">
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCC"/>
+        <rdf:value>M</rdf:value>
+      </rdf:Description>
+    </dcterms:subject>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/22035/22035-h/files/humpty.pdf">
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">45782</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-06-22T23:00:24</dcterms:modified>
         <dcterms:isFormatOf rdf:resource="ebooks/22035"/>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Ncab1259d7f584b579705bec4448e2ec2">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/pdf</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
       </pgterms:file>
     </dcterms:hasFormat>
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/22035/22035-h/files/jackbenimble.midi">
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/22035/22035-h/files/sixpence2.midi">
         <dcterms:isFormatOf rdf:resource="ebooks/22035"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">404</dcterms:extent>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">976</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-06-25T17:14:54</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N1c287226ca3f4625bf32a8a5414f2e0d">
+          <rdf:Description rdf:nodeID="N63bc2ba465a14bf7b4e13b33398fb97f">
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/midi</rdf:value>
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
           </rdf:Description>
         </dcterms:format>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-06-22T23:00:40</dcterms:modified>
       </pgterms:file>
     </dcterms:hasFormat>
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/22035/22035.zip">
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/22035/22035-h/files/sixpence2.pdf">
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">54108</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-06-25T17:14:54</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Nbdf9f49b3cfe4618b8ab129c356f0532">
+          <rdf:Description rdf:nodeID="Nf6c33df1f3874842b3ec52effbd96dfa">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/pdf</rdf:value>
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=us-ascii</rdf:value>
           </rdf:Description>
         </dcterms:format>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">26556</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-07-10T06:18:44</dcterms:modified>
+        <dcterms:isFormatOf rdf:resource="ebooks/22035"/>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/22035.epub.noimages">
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-11T02:28:01.621882</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N03c196388ed64c9a950b46f433cce523">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
+          <rdf:Description rdf:nodeID="N4c375fa63ba2452cbeaf3ac4ffe31c07">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:isFormatOf rdf:resource="ebooks/22035"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">42337</dcterms:extent>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:type>
+      <rdf:Description rdf:nodeID="Necf51c45c2534be1bfc367b98b9094c8">
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/DCMIType"/>
+        <rdf:value>Text</rdf:value>
+      </rdf:Description>
+    </dcterms:type>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/22035/22035-h/files/jackjill.pdf">
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-06-25T16:21:22</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">42627</dcterms:extent>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N2011d6719503411fad6f0e3dbeb35d91">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/pdf</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:isFormatOf rdf:resource="ebooks/22035"/>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/22035/22035-h/files/heydiddle.midi">
+        <dcterms:isFormatOf rdf:resource="ebooks/22035"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-06-24T19:08:42</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">771</dcterms:extent>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N1b38f95ced8e488d976c16b03c8c4678">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/midi</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/22035/22035-h/files/missmuffet_a.pdf">
+        <dcterms:isFormatOf rdf:resource="ebooks/22035"/>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Nfefd822d32014a2cb9327cf4aad4a6af">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/pdf</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44233</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-06-25T16:38:02</dcterms:modified>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/22035/22035-h/files/rockabye.pdf">
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-06-22T23:39:00</dcterms:modified>
+        <dcterms:isFormatOf rdf:resource="ebooks/22035"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">43937</dcterms:extent>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N2d88d4f812c34aa394b939844909978a">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/pdf</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/22035/22035-h/files/blacksheep.pdf">
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">43707</dcterms:extent>
+        <dcterms:isFormatOf rdf:resource="ebooks/22035"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-06-25T17:30:30</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Ndd62c5efc3554e9b80a773d0df716068">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/pdf</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/22035/22035-h/files/sixpence.midi">
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N895999657dd44269bfd9c78c6629221e">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/midi</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1708</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-06-25T17:12:08</dcterms:modified>
+        <dcterms:isFormatOf rdf:resource="ebooks/22035"/>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/22035/22035-h/files/cockhorse.pdf">
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Nba11416a883b40eb98e2dd559af73025">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/pdf</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">45354</dcterms:extent>
+        <dcterms:isFormatOf rdf:resource="ebooks/22035"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-06-24T19:44:38</dcterms:modified>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/22035/22035-h/files/diddledumpling.pdf">
+        <dcterms:isFormatOf rdf:resource="ebooks/22035"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-06-24T20:53:02</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">41058</dcterms:extent>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Nab1a1f884c954757a49601a0e4256fd8">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/pdf</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/22035/22035-h/files/sixpence.pdf">
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N3d7b6ead386f4d36a38286ad75b83dd6">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/pdf</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:isFormatOf rdf:resource="ebooks/22035"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">81246</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-06-25T17:12:08</dcterms:modified>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/22035/22035-h/files/dapplegrey.pdf">
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-06-25T17:52:44</dcterms:modified>
+        <dcterms:isFormatOf rdf:resource="ebooks/22035"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">54154</dcterms:extent>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Nfa30edd17e3441f2bd1f6fee369aaba5">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/pdf</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/22035/22035-h/files/beanporridge.midi">
+        <dcterms:isFormatOf rdf:resource="ebooks/22035"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-06-24T18:50:24</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N2998bf7cf8b149069910bdbc4bc73543">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/midi</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">770</dcterms:extent>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:language>
+      <rdf:Description rdf:nodeID="N2ab66a2b82e44ea7bd85622c44358633">
+        <rdf:value rdf:datatype="http://purl.org/dc/terms/RFC4646">en</rdf:value>
+      </rdf:Description>
+    </dcterms:language>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/22035/22035-h/files/popweasel.midi">
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1072</dcterms:extent>
+        <dcterms:isFormatOf rdf:resource="ebooks/22035"/>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N1afd68ec66d948b6a3c628c7980a5cc7">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/midi</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-06-25T18:09:56</dcterms:modified>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/22035/22035-h/files/williewinkie.pdf">
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-06-24T23:08:48</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">45867</dcterms:extent>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Nd210fba5d4014a7e9e76a6d56bad88db">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/pdf</rdf:value>
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
           </rdf:Description>
         </dcterms:format>
@@ -682,274 +708,210 @@ Mother Goose and Traditional</dcterms:title>
       <pgterms:file rdf:about="http://www.gutenberg.org/files/22035/22035-h/files/flyaway.pdf">
         <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">42157</dcterms:extent>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N9c83d5ee2d9841aa85f5c441fd5630fd">
+          <rdf:Description rdf:nodeID="N98e88f9aaded42cca3e96584074a9bf2">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/pdf</rdf:value>
           </rdf:Description>
         </dcterms:format>
+        <dcterms:isFormatOf rdf:resource="ebooks/22035"/>
         <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-06-24T21:00:28</dcterms:modified>
-        <dcterms:isFormatOf rdf:resource="ebooks/22035"/>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/22035/22035-h/files/loobyloo.pdf">
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N8ed7536cce8c452eb8860ad3c93636ef">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/pdf</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">56209</dcterms:extent>
-        <dcterms:isFormatOf rdf:resource="ebooks/22035"/>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-06-25T16:34:18</dcterms:modified>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/22035/22035-h/files/heydiddleslow.pdf">
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44891</dcterms:extent>
-        <dcterms:isFormatOf rdf:resource="ebooks/22035"/>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N2d40aa79c8f84eeca07280d697ffbc88">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/pdf</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-06-24T19:10:34</dcterms:modified>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/22035/22035-h/files/missmuffet_b.pdf">
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">48956</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-06-22T23:25:46</dcterms:modified>
-        <dcterms:isFormatOf rdf:resource="ebooks/22035"/>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N8c9677539d9643298e7fa1292a400802">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/pdf</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/22035/22035-h/files/dickory.pdf">
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-06-22T22:42:24</dcterms:modified>
-        <dcterms:isFormatOf rdf:resource="ebooks/22035"/>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N807c2e499281447f83330874dec0b724">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/pdf</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">42330</dcterms:extent>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/22035/22035-h/files/beanporridge.midi">
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-06-24T18:50:24</dcterms:modified>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">770</dcterms:extent>
-        <dcterms:isFormatOf rdf:resource="ebooks/22035"/>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N1221ee88e76e48fab35b549505af933f">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/midi</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/22035/22035-h/files/jackbenimble.pdf">
-        <dcterms:isFormatOf rdf:resource="ebooks/22035"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">31975</dcterms:extent>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="Nbd009473753148e18dd6fd28f53c20d7">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/pdf</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-06-22T23:00:42</dcterms:modified>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/22035/22035-h/files/beanporridge.pdf">
-        <dcterms:isFormatOf rdf:resource="ebooks/22035"/>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="Nec12084c6ca24c1daaca7b3ddc24f0dc">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/pdf</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-06-24T18:50:24</dcterms:modified>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">41568</dcterms:extent>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/22035/22035-h/files/humpty.pdf">
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-06-22T23:00:24</dcterms:modified>
-        <dcterms:isFormatOf rdf:resource="ebooks/22035"/>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N9a7a55897dd7453289530b257cf41e8c">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/pdf</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">45782</dcterms:extent>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <pgterms:downloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">88</pgterms:downloads>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/22035/22035-h/files/sixpence1.pdf">
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">49935</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-06-25T17:14:40</dcterms:modified>
-        <dcterms:isFormatOf rdf:resource="ebooks/22035"/>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N96d5cb72b04b4bc6ad53cb9392835d1a">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/pdf</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/22035/22035-h/files/littledog.midi">
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="Nc9d4345c902f4a6db1f785f5db1a585f">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/midi</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:isFormatOf rdf:resource="ebooks/22035"/>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-06-24T21:11:12</dcterms:modified>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">725</dcterms:extent>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/22035/22035-h/files/boyblue.pdf">
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N6f0672a426e0473aa4a92ab45255c4b9">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/pdf</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-06-24T19:01:14</dcterms:modified>
-        <dcterms:isFormatOf rdf:resource="ebooks/22035"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">46062</dcterms:extent>
       </pgterms:file>
     </dcterms:hasFormat>
     <dcterms:hasFormat>
       <pgterms:file rdf:about="http://www.gutenberg.org/files/22035/22035-h/files/blacksheep.midi">
-        <dcterms:isFormatOf rdf:resource="ebooks/22035"/>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Nf0de4d1133064db9ba7222b33a130e9f">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/midi</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
         <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-06-25T17:30:30</dcterms:modified>
+        <dcterms:isFormatOf rdf:resource="ebooks/22035"/>
         <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">802</dcterms:extent>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="Nc01467caa43449229408863603718266">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/midi</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
       </pgterms:file>
     </dcterms:hasFormat>
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/22035/22035-h/files/patacake.pdf">
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/22035/22035-h/files/beanporridge.pdf">
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-06-24T18:50:24</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">41568</dcterms:extent>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N052015f530c64288b73205f9803b4201">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          <rdf:Description rdf:nodeID="N1391d77898634cb18d3be374202a6099">
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/pdf</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
           </rdf:Description>
         </dcterms:format>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44988</dcterms:extent>
         <dcterms:isFormatOf rdf:resource="ebooks/22035"/>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-06-24T22:53:14</dcterms:modified>
       </pgterms:file>
     </dcterms:hasFormat>
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/22035.epub.noimages">
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/22035.epub.images">
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-11T02:28:01.152894</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">478893</dcterms:extent>
+        <dcterms:isFormatOf rdf:resource="ebooks/22035"/>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Nf02544cb30ec4576965a5643b42fc55b">
+          <rdf:Description rdf:nodeID="N51687fba981f49859189daeac00bd6a1">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:isFormatOf rdf:resource="ebooks/22035"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">52435</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-16T14:57:40.424567</dcterms:modified>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/22035.plucker">
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-19T03:45:34.869716</dcterms:modified>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">62622</dcterms:extent>
-        <dcterms:isFormatOf rdf:resource="ebooks/22035"/>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N87fa569d299e4f13a2c7273882640560">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/prs.plucker</rdf:value>
           </rdf:Description>
         </dcterms:format>
       </pgterms:file>
     </dcterms:hasFormat>
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/22035/22035-h/files/heydiddle.midi">
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/22035/22035-h/files/babybunting.midi">
+        <dcterms:isFormatOf rdf:resource="ebooks/22035"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">618</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-06-24T18:40:44</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N0ba0e835f91545e6ac5450c0a3f82034">
+          <rdf:Description rdf:nodeID="Nb4adbc0567d448638dbfdc6a0d068ca4">
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/midi</rdf:value>
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
           </rdf:Description>
         </dcterms:format>
-        <dcterms:isFormatOf rdf:resource="ebooks/22035"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">771</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-06-24T19:08:42</dcterms:modified>
       </pgterms:file>
     </dcterms:hasFormat>
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/22035/22035-h/files/heydiddle.pdf">
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44582</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-06-24T19:08:44</dcterms:modified>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/22035/22035-h/files/sixpence1.midi">
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">874</dcterms:extent>
+        <dcterms:isFormatOf rdf:resource="ebooks/22035"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-06-25T17:14:38</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N45d34c704ed44bef84eddd62f511ca72">
+          <rdf:Description rdf:nodeID="N469b1099e8fe4f248620ef414b9ac5bd">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/midi</rdf:value>
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/pdf</rdf:value>
           </rdf:Description>
         </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/22035/22035-h/files/seesaw.midi">
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-06-25T16:46:08</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">671</dcterms:extent>
         <dcterms:isFormatOf rdf:resource="ebooks/22035"/>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Nef223cd735854f2c9f1b0208d9700943">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/midi</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:title>Dramatized Rhythm Plays
+Mother Goose and Traditional</dcterms:title>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/22035/22035-h.zip">
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N28d41bf09820445e8b6732fd9a9be163">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1248436</dcterms:extent>
+        <dcterms:isFormatOf rdf:resource="ebooks/22035"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-07-10T06:18:44</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Nc7463f1a917c44e695ee42139105e9f3">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html; charset=us-ascii</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
       </pgterms:file>
     </dcterms:hasFormat>
     <dcterms:hasFormat>
       <pgterms:file rdf:about="http://www.gutenberg.org/files/22035/22035.txt">
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100625</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-07-10T06:16:58</dcterms:modified>
         <dcterms:isFormatOf rdf:resource="ebooks/22035"/>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N3ea1d25997614fc3b3d425718c1a0956">
+          <rdf:Description rdf:nodeID="N39ae85463e544d1db9b3b965a3087f68">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=us-ascii</rdf:value>
           </rdf:Description>
         </dcterms:format>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100625</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-07-10T06:16:58</dcterms:modified>
       </pgterms:file>
     </dcterms:hasFormat>
+    <pgterms:downloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">77</pgterms:downloads>
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/22035/22035-h/files/theband.pdf">
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/22035/22035-h/files/sixpence1.pdf">
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N108d1cb3ad3645fdae0b708778b7e045">
+          <rdf:Description rdf:nodeID="Nd0781794ed94434bbe145029e8d7a814">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/pdf</rdf:value>
           </rdf:Description>
         </dcterms:format>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-06-22T23:48:48</dcterms:modified>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44263</dcterms:extent>
         <dcterms:isFormatOf rdf:resource="ebooks/22035"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-06-25T17:14:40</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">49935</dcterms:extent>
       </pgterms:file>
     </dcterms:hasFormat>
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/22035/22035-h/files/patacake.midi">
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">820</dcterms:extent>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/22035/22035-h/files/humpty.midi">
+        <dcterms:isFormatOf rdf:resource="ebooks/22035"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-06-22T23:00:22</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">798</dcterms:extent>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N067cc21049ae463e9eb23975956085e1">
+          <rdf:Description rdf:nodeID="Na177d336bc7e42b6964d8c6d897d8c0e">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/midi</rdf:value>
           </rdf:Description>
         </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/22035/22035-h/files/missmuffet_a.midi">
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">761</dcterms:extent>
         <dcterms:isFormatOf rdf:resource="ebooks/22035"/>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-06-24T22:53:12</dcterms:modified>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-06-25T16:38:02</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Ne21b2d8debee49199e9359c929708f0c">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/midi</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/22035/22035-h/files/theband.midi">
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">858</dcterms:extent>
+        <dcterms:isFormatOf rdf:resource="ebooks/22035"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-06-22T23:48:48</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N00558ee0e93f40f8bb2e0c88c232d48c">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/midi</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="Nddd664dd901f4fc4a0e0d53142841fa7">
+        <rdf:value>Exercise music</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
+      </rdf:Description>
+    </dcterms:subject>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/22035/22035-h/files/jackjill.midi">
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Nbeb361c43162449c8b45606e36ef650c">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/midi</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-06-25T16:21:22</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">773</dcterms:extent>
+        <dcterms:isFormatOf rdf:resource="ebooks/22035"/>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/22035/22035-h/files/jackhorner.pdf">
+        <dcterms:isFormatOf rdf:resource="ebooks/22035"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">47834</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-06-22T23:18:14</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N1841f3696cf14004b779f8019b4b392d">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/pdf</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
       </pgterms:file>
     </dcterms:hasFormat>
     <dcterms:creator>
@@ -958,33 +920,67 @@ Mother Goose and Traditional</dcterms:title>
       </pgterms:agent>
     </dcterms:creator>
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/22035/22035-h/files/cockhorse.pdf">
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">45354</dcterms:extent>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/22035/22035-h/files/heydiddleslow.midi">
+        <dcterms:isFormatOf rdf:resource="ebooks/22035"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-06-24T19:10:34</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">771</dcterms:extent>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Nf18a8f0183964f11b43899278bacc70f">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/pdf</rdf:value>
+          <rdf:Description rdf:nodeID="Nb86060372cfb4085a108aa3352664a60">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/midi</rdf:value>
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
           </rdf:Description>
         </dcterms:format>
-        <dcterms:isFormatOf rdf:resource="ebooks/22035"/>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-06-24T19:44:38</dcterms:modified>
       </pgterms:file>
     </dcterms:hasFormat>
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/22035/22035-h/files/seesaw.midi">
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-06-25T16:46:08</dcterms:modified>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/22035/22035-h/files/diddledumpling.midi">
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Nc9891e005bda4738991175870d9097f2">
+          <rdf:Description rdf:nodeID="Nd35b3d36166d4e099e1194fc72d64ff1">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/midi</rdf:value>
           </rdf:Description>
         </dcterms:format>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">718</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-06-24T20:53:02</dcterms:modified>
         <dcterms:isFormatOf rdf:resource="ebooks/22035"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">671</dcterms:extent>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/22035.kindle.noimages">
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N1b117fa352b949bbab2677758b5211fb">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:isFormatOf rdf:resource="ebooks/22035"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">244683</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-11T02:28:04.714828</dcterms:modified>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <pgterms:bookshelf>
+      <rdf:Description rdf:nodeID="N0735d729834d4af5a5d7425cee583b6f">
+        <rdf:value>Children's Verse</rdf:value>
+        <dcam:memberOf rdf:resource="2009/pgterms/Bookshelf"/>
+      </rdf:Description>
+    </pgterms:bookshelf>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/22035/22035-h/files/jackbenimble.pdf">
+        <dcterms:isFormatOf rdf:resource="ebooks/22035"/>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N3b13dbeec6d6482da372c6298c26af61">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/pdf</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">31975</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-06-22T23:00:42</dcterms:modified>
       </pgterms:file>
     </dcterms:hasFormat>
   </pgterms:ebook>
   <cc:Work rdf:about="">
-    <cc:license rdf:resource="http://www.gnu.org/licenses/gpl.html"/>
+    <cc:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"/>
+    <rdfs:comment>Archives containing the RDF files for *all* our books can be downloaded at
+            http://www.gutenberg.org/wiki/Gutenberg:Feeds#The_Complete_Project_Gutenberg_Catalog</rdfs:comment>
   </cc:Work>
 </rdf:RDF>
